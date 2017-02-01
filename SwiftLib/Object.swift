@@ -8,6 +8,6 @@
 
 import Foundation
 
-class Object {
+public class Object {
     var value = ""
 }
