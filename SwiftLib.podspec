@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "SwiftLib"
-  s.version      = "0.0.1"
+  s.version      = "0.0.3"
   s.summary      = "CocoaPods test."
   s.homepage     = "https://github.com/yusuga/SwiftLib"
   s.license      = { :type => 'MIT', 
@@ -16,8 +16,7 @@ Pod::Spec.new do |s|
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
 
-  s.source       = { :git => "https://github.com/yusuga/SwiftLib.git", :tag => "#{s.version}" }
-  
-  s.source_files  = "Pod/Classes/**/*.{swift}"
-  s.requires_arc = true
+  s.source        = { :git => "https://github.com/yusuga/SwiftLib.git", :tag => "#{s.version}" }
+  s.source_files  = "SwiftLib/*.{swift}"
+  s.requires_arc  = true
 end
